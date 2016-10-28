@@ -4,7 +4,7 @@ chrome.runtime.onMessage.addListener(
     if( request.message === "clicked_browser_action" ) {
       	$('a').removeAttr('href');
       	$('a').css('color', '#252525');
-      	$('a').css('text-decoration', 'none');
+      	$('a').css('text-decoration', 'underline');
     }
   }
 );
